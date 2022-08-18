@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Raleway:ital,wght@1,200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 28px;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+
+/* header */
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+
+  position: sticky;
+  top: 0;
+}
+
+
+
+.menu {
+  position: sticky;
+  top: 0;
+}
+
+/* header > button  */
+form > button {
+  font-family: 'Lexend Deca', sans-serif;
+  flex-grow: 1;
+  font-size: 1rem; 
+}
+
+/* header > button:hover, */
+/* header > button:focus  */
+form > .selected {
+  background-color: #000;
+  color: #fff;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 0.5rem;
+  border-collapse: collapse;
+}
+
+table td {
+  overflow: hidden;
+  border: 1px solid #0f0;
+  width: auto;
+}
+
+/* main  */
+ul {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  margin: 20px;
+}
+
+ul li {
+  display:list-item;
+  list-style-position: outside;
+}
